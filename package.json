@@ -1,0 +1,60 @@
+{
+  "name": "covid415",
+  "version": "1.0.0",
+  "description": "Request or offer help in SF during the pandemic.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "server:debug": "nodemon --inspect app.js",
+    "frontend-install": "npm install --prefix frontend",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emostov/covid415.git"
+  },
+  "keywords": [
+    "corona",
+    "covid",
+    "bayarea",
+    "express",
+    "react",
+    "mongodb",
+    "node"
+  ],
+  "author": "Andrew Howell, Justin Fang, Tarik Guul, and Zeke Mostov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emostov/covid415/issues"
+  },
+  "homepage": "https://github.com/emostov/covid415#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@turf/turf": "^5.1.6",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "express-enforces-ssl": "^1.1.0",
+    "heroku-ssl-redirect": "0.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mapbox-gl": "^1.8.1",
+    "mongoose": "^5.9.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-google-places-autocomplete": "^1.6.2",
+    "react-places-autocomplete": "^7.2.1",
+    "redux-devtools-extension": "^2.13.8",
+    "twilio": "^3.42.2",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

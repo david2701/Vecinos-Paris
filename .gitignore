@@ -1,0 +1,9 @@
+/node_modules
+/frontend/node_modules
+
+/config/keys_mapbox.js
+/config/keys_dev.js
+
+/frontend/src/config/keys_dev_front.js
+
+*DS_Store

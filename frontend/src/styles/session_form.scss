@@ -1,0 +1,49 @@
+@import './theme.scss';
+
+.session.card {
+  border-radius: 3px;
+  max-width: 500px;
+  padding: 2rem;
+  margin: 5rem auto;
+  border-radius: 3px;
+  border-color: #343A40;
+}
+
+.signup.card {
+  background-image: linear-gradient(to bottom right,  $figma-grapefruit, $figma-peach );
+}
+
+.login.card {
+  background-image: linear-gradient(to bottom right,  $figma-green, $figma-peach , $figma-grapefruit, );
+}
+
+.session-btn{
+  background-color: $figma-green;
+  border-color: $figma-green;
+}
+
+.demo-btn{
+  margin-top: 1rem;
+  background-color: $second-gray-bg;
+  border-color: $second-gray-bg;
+}
+
+.demo-btn:hover, .demo-btn:active, .demo-btn:active:focus, .demo-btn:active:focus-within, .demo-btn:focus {
+  background-color: rgb(146, 145, 145)!important;
+  border-color: rgb(146, 145, 145)!important;
+}
+
+.session-btn:hover, .session-btn:active, .session-btn:active:focus, .session-btn:focus-within, .session-btn:focus {
+  background-color: rgb(115, 139, 111)!important;
+  border-color: rgb(115, 139, 111)!important;
+}
+
+.card-title.h5.session{
+  font-size: 35px;
+}
+
+.errors-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

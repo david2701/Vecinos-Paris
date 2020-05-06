@@ -1,0 +1,330 @@
+@import './theme.scss';
+
+.upcase {
+  // text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.white-txt {
+  color: #ffffff !important;
+}
+
+.border-right-grey {
+  border-right: 1px solid $third-gray-txt;
+}
+
+.nv-dp {
+  background-color: $first-gray-bg;
+}
+
+.light-gray-btn {
+  background-color: $second-gray-txt !important;
+  padding: 0;
+  margin: 0;
+  border-color: transparent;
+}
+
+// .dropdown-item:active {
+//   // background-color: white;
+// }
+
+.nav-link:hover {
+  color: white!important;
+}
+
+.nav-link:hover {
+  color: white!important;
+}
+
+.user-circle {
+  width: 25px!important;
+  height: 25px!important;
+  // color: #ffffff !important;
+}
+
+
+.dropdown-toggle.nav-link{
+  padding-bottom: .25rem;
+}
+
+.navbar.bg-dark {
+  border-bottom: 2px solid $figma-red;
+  z-index: 3;
+}
+
+.dropdown-toggle::after {
+  padding-bottom: 3px;
+}
+
+.dropdown-item:active {
+  background-color: whitesmoke!important;
+}
+
+.nav-link {
+  color: $second-gray-txt!important;
+}
+
+.request-help-button {
+  height: 28px;
+  color: $figma-grapefruit;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 10px;
+}
+
+.request-help-button:hover {
+  color: white;
+}
+
+.request-help-button:focus {
+  outline: none;
+
+}
+
+.dropdown-menu {
+  background-color: $light-gray-bg!important
+}
+
+.text-left {
+  text-transform: none;
+}
+
+.dropdown-menu {
+  right: -15px;
+  top: 49px;
+  border-radius: 3px;
+}
+
+.dropdown-menu > button {
+  text-decoration: none;
+}
+
+.log-out {
+  color: $figma-red;
+  border-top: 1px solid $second-gray-bg
+}
+
+.log-out:hover {
+  color: $figma-red
+}
+
+.navbar-user {
+  padding: 4px 24px;
+  margin-bottom: -10px;
+}
+
+.navbar-curr-user {
+  color: rgb(59, 59, 59);
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.navbar-curr-email {
+  color: rgb(94, 94, 94);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.github-icon {
+  border-left: 1px solid $second-gray-bg;
+  padding-top: 8px;
+}
+
+.online-presence-icon {
+  height: 27px;
+  cursor: pointer;
+  padding-left: 5px;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  filter: brightness(80%);
+}
+
+.online-presence-icon:hover {
+  filter: brightness(100%);
+}
+
+.logo-covid415 {
+  width: 200px;
+}
+
+.icon-login-container {
+  display: flex;
+}
+
+@media only screen and (max-device-width: 600px) { 
+
+  .upcase {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .white-txt {
+    color: #ffffff !important;
+  }
+
+  .nv-dp {
+    background-color: $first-gray-bg;
+  }
+
+  .light-gray-btn {
+    background-color: $second-gray-txt !important;
+    padding: 0;
+    margin: 0;
+    border-color: transparent;
+  }
+
+  .nav-link:hover {
+    color: white!important;
+  }
+
+  .nav-link:hover {
+    color: white!important;
+  }
+
+  .user-circle {
+    width: 25px!important;
+    height: 25px!important;
+  }
+
+
+  .dropdown-toggle.nav-link{
+    padding-bottom: .25rem;
+  }
+
+  .navbar.bg-dark {
+    border-bottom: 2px solid $figma-red;
+    z-index: 3;
+  }
+
+  .dropdown-toggle::after {
+    padding-bottom: 3px;
+  }
+
+  .dropdown-item:active {
+    background-color: whitesmoke!important;
+  }
+
+  .nav-link {
+    color: $second-gray-txt!important;
+  }
+
+  .request-help-button {
+    color: white;
+    font-size: 11px;
+    height: fit-content;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    border: none;
+    background-color: $figma-red;
+    border-radius: 5px;
+    filter: brightness(95%);
+    margin: 0px 10px 0px 15px
+  }
+
+  .request-help-button:hover {
+    filter: brightness(100%);
+    box-shadow: 2px 2px 8px 3px rgba(197, 197, 197, 0.5);
+  }
+
+  .request-help-button:focus {
+    outline: none;
+
+  }
+
+  .dropdown-menu {
+    background-color: $light-gray-bg!important
+  }
+
+  .text-left {
+    text-transform: none;
+  }
+
+  .dropdown-menu {
+    right: -15px;
+    top: 49px;
+    border-radius: 3px;
+  }
+
+  .dropdown-menu > button {
+    text-decoration: none;
+  }
+
+  .log-out {
+    color: $figma-red;
+    border-top: 1px solid $second-gray-bg
+  }
+
+  .log-out:hover {
+    color: $figma-red
+  }
+
+  .navbar-user {
+    padding: 4px 24px;
+    margin-bottom: -10px;
+  }
+
+  .navbar-curr-user {
+    color: rgb(59, 59, 59);
+    letter-spacing: 1px;
+    font-size: 17px;
+  }
+
+  .navbar-curr-email {
+    color: rgb(94, 94, 94);
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .github-icon {
+    border-left: 1px solid #343A40;
+    padding-top: 3px;
+  }
+
+  .online-presence-icon {
+    height: 27px;
+    cursor: pointer;
+    padding-left: 5px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+
+    filter: brightness(80%);
+  }
+
+  .online-presence-icon:hover {
+    filter: brightness(100%);
+  }
+
+  .navbar-brand {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar-nav {
+    margin: auto;
+  }
+
+  .logo-covid415 {
+    width: 140px;
+    height: 25px;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon-login-container {
+    display: flex;
+
+  }
+  
+}
